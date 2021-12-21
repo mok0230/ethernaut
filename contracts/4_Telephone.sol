@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "hardhat/console.sol";
-import "./interfaces/IEthernautTelephone.sol";
+import "./interfaces/4_IEthernautTelephone.sol";
 
 contract Telephone {
   IEthernautTelephone ethernautTelephone = IEthernautTelephone(0xA647B0b9A046b833416cD6960370EbE010abEB83);

@@ -7,7 +7,7 @@ async function main() {
   
   console.log("Account balance:", (await ethers.utils.formatEther(weiAmount)));
 
-  const Contract = await ethers.getContractFactory("KingAttacker");
+  const Contract = await ethers.getContractFactory("ReentranceAttacker");
   const contract = await Contract.deploy();
 
   console.log("Contract address:", contract.address);
